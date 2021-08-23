@@ -28,7 +28,7 @@
 
     <h2>@container</h2>
     <h2>fluid container</h2>
-    <p class = "container">This is a fluid container which will go from start to end</p>
+    <p class="container">This is a fluid container which will go from start to end</p>
 
     <h2>center container</h2>
     <p class="container-center">This is a center container which will only take some part of the line.</p>
@@ -46,7 +46,7 @@
 
     <h3>unordered list</h3>
 
-    <ul class="list-non-bullet"  >
+    <ul class="list-non-bullet">
         <li class="list-item-inline">item1</li>
         <li class="list-item-inline">item2</li>
         <li class="list-item-inline">item3</li>
@@ -86,35 +86,46 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="Images/header.svg" alt="Header Pic">
-        <h1>Heading inside hero.</h1>
+    <header class="hero">
+        <img class="hero-img" src="Images/header.svg" alt="Header Pic">
+        <h1 class="hero-heading">Sainath The <span class="heading-inverted"> Web Developer</span>.</h1>
     </header>
 
     <hr>
 
     <h2>@sections</h2>
 
-    <section>
-        <h3>White Background</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White Background</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur provident nulla repellendus
+                atque quam aliquam eaque, laborum quia magni, cumque consequatur dolores fugiat. Voluptatum ullam
+                blanditiis labore. Error, officia? Nemo ducimus, provident possimus ex consectetur nam pariatur eius
+                earum?</p>
+        </div>
     </section>
 
-    <section>
-        <h3>OFF White Background</h3>
-        <p>This will have gray background</p>
+    <section class="section section-ow">
+        <div class="container container-center">
+            <h1>OFF White Background</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quis nihil at incidunt fugit dolorem ipsa
+                temporibus laboriosam facilis cumque rem eligendi non maiores obcaecati, aspernatur numquam cupiditate.
+                Iste cum dolorum quibusdam itaque incidunt vero quo atque accusamus ut doloribus!</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
+    <footer class="footer container">
         <div>Some text inside footer</div>
-        <ul>
-            <li>Social One</li>
-            <li>Social Two</li>
-            <li>Social Three</li>
+        <ul class="list-non-bullet">
+            <li class=" list-item-inline"><a class="link" href="#">Social one</a></li class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="#"> Social Two </a>
+            </li>
+            <li class=" list-item-inline"><a class="link" href="#">Social Three</a> </li>
         </ul>
     </footer>
 

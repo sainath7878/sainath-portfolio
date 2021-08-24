@@ -97,15 +97,21 @@ hr{
 
 .section{
     padding: 2rem;
+    margin:1rem 0;
 }
-.section h1{
+.section .section-header{
     text-align: center;
 }
+
 
 .section-ow{
     background-color:var(--offwhite-gray);
     border-radius: 0.2rem;
 }
+
+ .section p{
+     margin: 2rem 0;;
+ }
 
 .footer {
 background-color: var(--primary-color);
@@ -126,7 +132,6 @@ border-top-right-radius: 1rem;
     font-weight: bold;
 }
 
-.margin-space{
-    padding:1rem;
+.footer .link{
+    padding:0.5rem;
 }
-

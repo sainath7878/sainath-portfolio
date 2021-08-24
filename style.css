@@ -75,7 +75,8 @@ hr{
 }
 
 .header{
-    padding:2rem 0;
+    padding:2rem;
+    padding-top:5rem;
 }
 
 .header .header-img{
@@ -122,4 +123,8 @@ border-top-right-radius: 1rem;
 .footer .footer-header{
     font-size: x-large;
     font-weight: bold;
+}
+
+.margin-space{
+    padding:1rem;
 }

@@ -43,7 +43,8 @@ hr{
 }
 
 .list-non-bullet{
-    list-style-type: none;;
+    list-style-type: none;
+    padding-inline-start: 0px ;
 }
 
 .list-item-inline{
@@ -128,3 +129,4 @@ border-top-right-radius: 1rem;
 .margin-space{
     padding:1rem;
 }
+

@@ -73,6 +73,8 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+    border-bottom: 2px solid var(--offwhite-gray);
+    border-radius: 0.1rem;
 }
 
 .header{
